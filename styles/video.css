@@ -16,7 +16,7 @@
 
 .video-author,
 .video-stats {
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(60, 60, 60);
 }
 
@@ -27,21 +27,22 @@
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
+  
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
 }
@@ -55,9 +56,9 @@
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 2px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   position: absolute;
-  bottom: 8px;
+  bottom: 11px;
   right: 5px;
 }
