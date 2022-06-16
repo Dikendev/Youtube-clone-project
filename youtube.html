@@ -25,18 +25,41 @@
         <input class="search-bar" type="text" placeholder="Search">
         <button class="search-button">
           <img class="search-icon" src="icons/search.svg" alt="">
+          <div class="tooltip">
+            Search
+          </div>
         </button>
         <button class="voice-search-button">
           <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">
+            Search with your voice
+          </div>
         </button>
       </div>
         
       <div class="right-section">
-        <img class="upload-icon" src="icons/upload.svg" alt="">
-        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="">
+          <div class="tooltip">
+            Create
+          </div>
+        </div>
+        
+        <div class="youtube-app-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">  
+          <div class="tooltip">
+            Youtube apps
+          </div>
+        </div>
+        
         <div class="notification-icon-container">
           <img class="notification-icon" src="icons/notifications.svg" alt="">
-          <div class="notification-count">3</div>
+          <div class="notification-count">
+            3
+          </div>
+          <div class="tooltip">
+            Notifications
+          </div>
         </div>
         <img class="current-user-icon" src="channel-pictures/my-channel.jpeg" alt="">
       </div>
@@ -73,20 +96,32 @@
       <!--Marques Brownlee-->
       <div class="video-preview">     
         <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" rel="external" target="_self">
           <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="thumb-1">
-          <div class="video-time">14:20</div>
+          </a>
+          <div class="video-time">
+            14:20
+          </div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="channel-1">
+            <a class="link-video" href="https://www.youtube.com/c/mkbhd" rel="external" target="_self" >
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="channel-1">
+            </a>
           </div>
           <div class="video-info">
-            <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai&#x21;
-            </p>
-            <p class="video-author">
-              Marques Brownlee
-            </p>
+            <a
+            class="link-video"
+            href="https://www.youtube.com/watch?v=n2RNcPRtAiY" rel="external" target="_self">
+              <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai&#x21;
+              </p>
+            </a>
+            <a class="link-video" href="https://www.youtube.com/c/mkbhd" rel="external" target="_self">
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+            </a>
             <p class="video-stats">
               3.5m views &#8211; 6 months ago
             </p>
