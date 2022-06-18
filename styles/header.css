@@ -65,7 +65,8 @@
 .voice-search-button,
 .upload-icon-container,
 .youtube-app-icon-container,
-.notification-icon-container {
+.notification-icon-container,
+.youtube-tooltip {
   position: relative;
   display: flex;
   justify-content: center;
@@ -76,7 +77,8 @@
 .voice-search-button .tooltip,
 .upload-icon-container .tooltip,
 .youtube-app-icon-container .tooltip,
-.notification-icon-container .tooltip {
+.notification-icon-container .tooltip,
+.youtube-tooltip .tooltip {
   position: absolute;
   background-color: gray;
   color: white;
@@ -99,7 +101,7 @@
 .youtube-app-icon-container:hover,
 .notification-icon-container:hover,
 .hamburger-menu:hover,
-.youtube-logo{
+.youtube-tooltip{
   cursor: pointer;
 }
 
@@ -107,7 +109,7 @@
 .voice-search-button:hover .tooltip,
 .upload-icon-container:hover .tooltip,
 .youtube-app-icon-container:hover .tooltip,
-.notification-icon-container:hover .tooltip {
+.notification-icon-container:hover .tooltip, .youtube-tooltip:hover .tooltip {
   opacity: 1;
 }
 
